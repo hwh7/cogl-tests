@@ -1,0 +1,17 @@
+cogl-tests
+==========
+
+What is it?
+-----------
+This program is a toy program to see the result of minifcation filters.
+
+How to build
+------------
+meson builddir
+cd builddir
+ninja
+
+How to test
+-----------
+./image-resize [IMAGE_FILE_PATH] [FILTER INDEX]
+ex) ./image-resize ../Farcry5.jpg 0
